@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  background-color: #F3F5FC;
+  font-family: "Inter", sans-serif;
+  margin: 40px;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.sidebar div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar div a {
+  text-align: center;
+}
+
+.inputSession {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 8rem 5rem 2rem;
+}
+
+.inputMessage {
+  background-color: #F3F5FC;
+  border: none;
+  color: #0A3871;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  resize: none;
+  width: 100%;
+}
+
+.inputMessage:focus {
+  outline: none;
+}
+
+.inputMessage::placeholder {
+  color: #0A3871;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+
+.alertMessage {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 1rem 0;
+}
+
+.buttonSession {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 1.5rem 0;
+  width: calc(50% - 0.75rem)
+}
+
+.crip {
+  background-color: #0A3871;
+  color: #fff;
+}
+
+.descrip {
+  background-color: #F3F5FC;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+}
+
+.outputSession {
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  min-height: calc(100vh - 80px);
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+}
+
+.outputSession p {
+  margin: 0;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.innerDiv p {
+  color: #495057;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.copyBtn {
+  background-color: white;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  width: 100%
+}
