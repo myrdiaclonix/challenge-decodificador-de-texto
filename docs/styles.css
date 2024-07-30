@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
   background-color: #F3F5FC;
   font-family: "Inter", sans-serif;
@@ -12,6 +14,7 @@ main {
 .sidebar {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .sidebar div {
@@ -29,7 +32,7 @@ main {
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
-  margin: 10.5rem 5rem 4.5rem;
+  margin: 8rem 5rem 2rem;
 }
 
 .inputMessage {
@@ -78,7 +81,7 @@ button {
 }
 
 .descrip {
-  background-color: #D8DFE8;
+  background-color: #F3F5FC;
   border: 1px solid #0A3871;
   color: #0A3871;
 }
@@ -88,7 +91,7 @@ button {
   border-radius: 2rem;
   box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
   display: flex;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   justify-content: center;
   text-align: center;
   width: 400px;
@@ -96,4 +99,27 @@ button {
 
 .outputSession p {
   margin: 0;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.innerDiv p {
+  color: #495057;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.copyBtn {
+  background-color: white;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  width: 100%
 }
