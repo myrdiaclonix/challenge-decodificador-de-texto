@@ -1,9 +1,12 @@
 <h1 align="center">Challenge Decodificador de Texto</h1>
-Referente ao curso da Alura - Praticando lógica de programação: Challenge Decodificador de Texto
+<p align="center">Referente ao curso da Alura - Praticando lógica de programação: Challenge Decodificador de Texto</p>
+<p align="center"><img src="https://github.com/user-attachments/assets/06776139-92c4-4218-9a54-f63e1aa83ade" height="300" /></p>
 
 ## Como executar o projeto
 
 Após fazer o download o repositório, abra o arquivo `index.html` em um navegador.
+
+O projeto também pode ser acessado por [este link](https://myrdiaclonix.github.io/challenge-decodificador-de-texto/).
 
 ## Funcionalidades
 
