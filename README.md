@@ -4,9 +4,10 @@
 
 ## Como executar o projeto
 
-Após fazer o download o repositório, abra o arquivo `index.html` em um navegador.
+Após fazer o download o repositório, abra o arquivo `index.html` em um navegador. 
 
 O projeto também pode ser acessado por [este link](https://myrdiaclonix.github.io/challenge-decodificador-de-texto/).
+> É importante notar que este projeto não é responsivo, tendo melhor usabilidade em formatos desktop.
 
 ## Funcionalidades
 
